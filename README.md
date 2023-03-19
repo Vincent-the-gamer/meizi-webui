@@ -13,21 +13,13 @@
 
 ## 本地运行
 ### 提醒
-您需要Node.js环境才能运行该项目，如果没有安装，请去下载：
+您需要`Node.js`环境才能运行该项目，如果没有安装，请去下载：
 
 Node.js英文官网下载链接: [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
 Node.js中文网: [http://nodejs.p2hp.com/](http://nodejs.p2hp.com/)
 
 ### 方法
-
-注意目录结构，server文件夹里面是后端，在server文件夹路径下，使用命令
-
-~~~shell
-yarn start
-~~~
-来启动。
-
 
 1. 拉取项目
 ~~~shell
@@ -46,6 +38,8 @@ yarn install # 后端
 ~~~
 
 3. 分别运行前端和后端
+
+注意目录结构，server文件夹里面是后端
 
 运行后端：
 ~~~shell
@@ -76,7 +70,7 @@ devServer: {
 
 
 ## 部署到自己的服务器
-因为功能点不多，我没有单独封装axios，所以请在`Main.vue`修改需要请求的后端地址。
+因为功能点不多，我没有单独封装axios，所以请在`项目根目录/components/Main.vue`修改需要请求的后端地址。
 
 ### 步骤
 #### 1. 修改`server文件夹`里面的`server.js`，
